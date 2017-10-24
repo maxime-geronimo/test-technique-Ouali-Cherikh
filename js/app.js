@@ -30,6 +30,13 @@ jQuery(document).ready(function() {
     }, {
         duration: 8000,
         easing: [10, 10]
+    });
+        $('.text-center').velocity({
+        translateX: [0, 1200],
+        opacity: [1, 0]
+    }, {
+        duration: 8000,
+        easing: [10, 10]
 
     });
 });
