@@ -39,4 +39,12 @@ jQuery(document).ready(function() {
         easing: [10, 10]
 
     });
+    $('.navbar-brand').velocity({
+        translateX: [10, 0],
+        opacity: [1, 0]
+    }, {
+        duration: 8000,
+        easing: [10, 10]
+
+    });
 });

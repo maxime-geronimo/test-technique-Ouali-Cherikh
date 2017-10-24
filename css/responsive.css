@@ -26,9 +26,8 @@
         margin-bottom: 40px;        
     }
     .collapse .navbar-right {
-        display:none;
-        text-align: right;
-    }
+opacity:0;
+        }
     
 }
 

@@ -48,6 +48,7 @@ body {
 
 .navbar-default {
     background-color: rgba(0, 0, 0, 1) !important;
+    border-color: rgba(0, 0, 0, 1) !important;
 }
 
 .navbar .navbar-nav {
@@ -109,6 +110,9 @@ body {
     -moz-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: red !important;
 }
 /* === news ===*/
 
