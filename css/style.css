@@ -14,13 +14,28 @@ body {
 
 /* ==== Header ==== */
 
-header {
+.header-overlay {
     background-image: url("../images/header.png");
-    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    min-height: 567px;
+    margin-top: 51px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.8)
+    background-color: rgba(0, 0, 0, 1)
 }
 
 .navbar .navbar-nav {
@@ -36,4 +51,50 @@ header {
 .navbar-default .navbar-nav>li>a {
     color: white !important;
     font-size: 15px;
+}
+
+.discover-smart-news {
+    max-width: 570px;
+    font-family: Aleo;
+    font-size: 65px;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    line-height: 52px;
+}
+
+.profil {
+    width: 20px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 17px;
+}
+
+
+/* === news ===*/
+
+.news .col-md-4 image {
+    width: 450px;
+}
+
+.stranger-things-2-am {
+    height: 80px;
+}
+
+.la-deuxi-me-saison-d {
+    height: 48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.commentright a {
+    margin-right: 60px;
 }

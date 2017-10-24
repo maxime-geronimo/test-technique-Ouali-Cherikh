@@ -1,6 +1,10 @@
 /* Small Devices */
 
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+    .la-deuxi-me-saison-d {
+        padding-bottom: 90px !important;
+    }
+}
 
 
 /* Small Devices And Tablets */
