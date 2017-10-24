@@ -105,15 +105,11 @@ body {
     color: #ffffff;
 }
 
-.navbar-default {
-    border:none !Important;
-}
 
 /* === news ===*/
 
 .image {
-    width: 390px;
-}
+    width: 450px;}
 
 .stranger-things-2-am {
     height: 80px;
@@ -160,6 +156,7 @@ body {
     text-align: center;
     color: #000000;
 }
+
 /* ==== footer === */
 
 .footer {

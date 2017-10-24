@@ -1,10 +1,11 @@
-/* Small Devices */
 
-@media only screen and (max-width: 767px) {
-    .la-deuxi-me-saison-d {
-        padding-bottom: 90px !important;
-    }
-}
+/* Medius Devices , Desktop */
+
+
+/* Medius Devices , phone */
+
+
+
 
 
 /* Small Devices And Tablets */
@@ -14,29 +15,32 @@
         display: inline-block;
         float: none;
         vertical-align: top;
-
     }
-
     .navbar .navbar-collapse {
         text-align: center;
     }
-}
-
-
-/* Medius Devices , Desktop */
-
-@media only screen and (min-width: 992px) {}
-
-
-/* Large Devices, Wide Screen */
-
-@media only screen and (min-width: 1200px) {
-    .item-responsive {
-        display: block;
+    .paragraph-news{
+        padding-bottom: 90px !important;
+    }
+    .commentright{
+        margin-bottom: 40px;        
     }
 }
 
 
-/* responsiv 2 */
 
-@media only screen and (max-width: 80px) {}
+/* responsiv 2 tablet */
+
+/* Large Devices, Wide Screen */
+
+@media only screen and  (min-width: 890px) and (max-width: 1350px) {
+    .commentright{ 
+        margin-bottom: 40px;        
+    }
+    .news div {
+        margin-right: 30px;
+    }
+
+}
+
+
