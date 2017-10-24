@@ -73,8 +73,8 @@ body {
 
 /* === news ===*/
 
-.news .col-md-4 image {
-    width: 450px;
+.image {
+    width: 250px;
 }
 
 .stranger-things-2-am {
@@ -100,8 +100,6 @@ body {
 }
 
 .rectangle-2 {
-    padding-right: 15px;
-    padding-left: 15px;
     height: 60px;
     border: solid 1px #000000;
 }
@@ -117,4 +115,14 @@ body {
     letter-spacing: 2.4px;
     text-align: center;
     color: #000000;
+}
+
+.footer {
+    border-top: 1px solid wheat;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.reaseaux {
+    display: flex;
 }
