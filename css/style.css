@@ -70,11 +70,15 @@ body {
     margin-top: 17px;
 }
 
+.nav-item {
+    color: #fff;
+}
+
 
 /* === news ===*/
 
 .image {
-    width: 250px;
+    width: 390px;
 }
 
 .stranger-things-2-am {
